@@ -1,3 +1,6 @@
+
+import 'materialize-css';
+import { MaterializeModule } from 'angular2-materialize';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -8,6 +11,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
+    MaterializeModule,
     BrowserModule
   ],
   providers: [],
